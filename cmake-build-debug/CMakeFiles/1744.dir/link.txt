@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1744.dir/1744.cpp.o  -o 1744 

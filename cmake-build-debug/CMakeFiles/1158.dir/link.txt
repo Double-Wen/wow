@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1158.dir/1158.cpp.o  -o 1158 

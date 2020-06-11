@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1942.dir/1942.cpp.o  -o 1942 

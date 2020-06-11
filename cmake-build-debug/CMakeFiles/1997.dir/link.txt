@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1997.dir/1997.cpp.o  -o 1997 

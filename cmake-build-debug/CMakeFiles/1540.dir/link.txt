@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1540.dir/1540.cpp.o  -o 1540 

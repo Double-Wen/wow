@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1088.dir/1088.cpp.o  -o 1088 

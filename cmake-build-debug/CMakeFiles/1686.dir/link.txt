@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1686.dir/1686.cpp.o  -o 1686 

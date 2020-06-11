@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1360.dir/1360.cpp.o  -o 1360 

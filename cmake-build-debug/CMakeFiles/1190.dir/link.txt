@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1190.dir/1190.cpp.o  -o 1190 

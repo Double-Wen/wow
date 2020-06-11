@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1878.dir/1878.cpp.o  -o 1878 

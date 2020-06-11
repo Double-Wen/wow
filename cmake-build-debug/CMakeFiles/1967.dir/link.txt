@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1967.dir/1967.cpp.o  -o 1967 

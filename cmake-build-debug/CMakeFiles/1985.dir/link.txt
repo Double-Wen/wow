@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1985.dir/1985.cpp.o  -o 1985 

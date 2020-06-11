@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1916.dir/1916.cpp.o  -o 1916 

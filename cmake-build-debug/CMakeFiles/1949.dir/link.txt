@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1949.dir/1949.cpp.o  -o 1949 

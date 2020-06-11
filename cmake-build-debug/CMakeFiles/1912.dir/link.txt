@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1912.dir/1912.cpp.o  -o 1912 

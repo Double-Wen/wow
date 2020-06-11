@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1989.dir/1989.cpp.o  -o 1989 

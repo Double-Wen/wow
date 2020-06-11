@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1970.dir/1970.cpp.o  -o 1970 

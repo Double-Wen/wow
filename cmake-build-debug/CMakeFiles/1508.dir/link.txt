@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1508.dir/1508.cpp.o  -o 1508 

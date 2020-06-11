@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1920.dir/1920.cpp.o  -o 1920 

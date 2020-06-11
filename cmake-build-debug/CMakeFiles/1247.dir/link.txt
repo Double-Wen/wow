@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1247.dir/1247.cpp.o  -o 1247 

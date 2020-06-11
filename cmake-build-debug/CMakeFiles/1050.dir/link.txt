@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1050.dir/1050.cpp.o  -o 1050 

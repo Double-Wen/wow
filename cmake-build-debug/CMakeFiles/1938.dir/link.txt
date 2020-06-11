@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1938.dir/1938.cpp.o  -o 1938 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1064.dir/1064.cpp.o  -o 1064 

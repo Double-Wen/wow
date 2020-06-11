@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1100.dir/1100.cpp.o  -o 1100 

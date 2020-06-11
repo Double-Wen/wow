@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1904.dir/1904.cpp.o  -o 1904 

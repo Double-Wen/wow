@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1930.dir/1930.cpp.o  -o 1930 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1929.dir/1929.cpp.o  -o 1929 

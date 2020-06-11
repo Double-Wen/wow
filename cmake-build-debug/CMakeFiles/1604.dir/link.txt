@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1604.dir/1604.cpp.o  -o 1604 

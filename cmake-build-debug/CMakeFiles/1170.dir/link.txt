@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1170.dir/1170.cpp.o  -o 1170 

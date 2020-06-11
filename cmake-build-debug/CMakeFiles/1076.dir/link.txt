@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1076.dir/1076.cpp.o  -o 1076 

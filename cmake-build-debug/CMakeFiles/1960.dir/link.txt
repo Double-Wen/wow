@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1960.dir/1960.cpp.o  -o 1960 

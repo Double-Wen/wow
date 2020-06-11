@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1017.dir/1017.cpp.o  -o 1017 

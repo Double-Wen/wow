@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1235.dir/1235.cpp.o  -o 1235 

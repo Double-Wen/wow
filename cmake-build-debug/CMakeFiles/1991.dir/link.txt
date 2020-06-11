@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1991.dir/1991.cpp.o  -o 1991 

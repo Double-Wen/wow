@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1976.dir/1976.cpp.o  -o 1976 

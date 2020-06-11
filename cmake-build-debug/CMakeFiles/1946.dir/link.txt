@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1946.dir/1946.cpp.o  -o 1946 

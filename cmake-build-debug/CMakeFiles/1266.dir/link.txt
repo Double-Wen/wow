@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1266.dir/1266.cpp.o  -o 1266 

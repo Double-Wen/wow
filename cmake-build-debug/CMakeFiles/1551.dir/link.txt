@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1551.dir/1551.cpp.o  -o 1551 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1070.dir/1070.cpp.o  -o 1070 
