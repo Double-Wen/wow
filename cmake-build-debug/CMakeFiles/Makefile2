@@ -53,10 +53,6 @@ CMAKE_BINARY_DIR = /home/ubuntu/CLionProjects/wow/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/1999.dir/all
-all: CMakeFiles/1998.dir/all
-all: CMakeFiles/1997.dir/all
-all: CMakeFiles/1996.dir/all
 all: CMakeFiles/1994.dir/all
 all: CMakeFiles/1990.dir/all
 all: CMakeFiles/1989.dir/all
@@ -1062,10 +1058,6 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/1999.dir/clean
-clean: CMakeFiles/1998.dir/clean
-clean: CMakeFiles/1997.dir/clean
-clean: CMakeFiles/1996.dir/clean
 clean: CMakeFiles/1994.dir/clean
 clean: CMakeFiles/1990.dir/clean
 clean: CMakeFiles/1989.dir/clean
@@ -2066,114 +2058,6 @@ clean: CMakeFiles/1820.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/1999.dir
-
-# All Build rule for target.
-CMakeFiles/1999.dir/all:
-	$(MAKE) -f CMakeFiles/1999.dir/build.make CMakeFiles/1999.dir/depend
-	$(MAKE) -f CMakeFiles/1999.dir/build.make CMakeFiles/1999.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1999"
-.PHONY : CMakeFiles/1999.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/1999.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1999.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/1999.dir/rule
-
-# Convenience name for target.
-1999: CMakeFiles/1999.dir/rule
-
-.PHONY : 1999
-
-# clean rule for target.
-CMakeFiles/1999.dir/clean:
-	$(MAKE) -f CMakeFiles/1999.dir/build.make CMakeFiles/1999.dir/clean
-.PHONY : CMakeFiles/1999.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/1998.dir
-
-# All Build rule for target.
-CMakeFiles/1998.dir/all:
-	$(MAKE) -f CMakeFiles/1998.dir/build.make CMakeFiles/1998.dir/depend
-	$(MAKE) -f CMakeFiles/1998.dir/build.make CMakeFiles/1998.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1998"
-.PHONY : CMakeFiles/1998.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/1998.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1998.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/1998.dir/rule
-
-# Convenience name for target.
-1998: CMakeFiles/1998.dir/rule
-
-.PHONY : 1998
-
-# clean rule for target.
-CMakeFiles/1998.dir/clean:
-	$(MAKE) -f CMakeFiles/1998.dir/build.make CMakeFiles/1998.dir/clean
-.PHONY : CMakeFiles/1998.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/1997.dir
-
-# All Build rule for target.
-CMakeFiles/1997.dir/all:
-	$(MAKE) -f CMakeFiles/1997.dir/build.make CMakeFiles/1997.dir/depend
-	$(MAKE) -f CMakeFiles/1997.dir/build.make CMakeFiles/1997.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1997"
-.PHONY : CMakeFiles/1997.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/1997.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1997.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/1997.dir/rule
-
-# Convenience name for target.
-1997: CMakeFiles/1997.dir/rule
-
-.PHONY : 1997
-
-# clean rule for target.
-CMakeFiles/1997.dir/clean:
-	$(MAKE) -f CMakeFiles/1997.dir/build.make CMakeFiles/1997.dir/clean
-.PHONY : CMakeFiles/1997.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/1996.dir
-
-# All Build rule for target.
-CMakeFiles/1996.dir/all:
-	$(MAKE) -f CMakeFiles/1996.dir/build.make CMakeFiles/1996.dir/depend
-	$(MAKE) -f CMakeFiles/1996.dir/build.make CMakeFiles/1996.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1996"
-.PHONY : CMakeFiles/1996.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/1996.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1996.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/1996.dir/rule
-
-# Convenience name for target.
-1996: CMakeFiles/1996.dir/rule
-
-.PHONY : 1996
-
-# clean rule for target.
-CMakeFiles/1996.dir/clean:
-	$(MAKE) -f CMakeFiles/1996.dir/build.make CMakeFiles/1996.dir/clean
-.PHONY : CMakeFiles/1996.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/1994.dir
 
 # All Build rule for target.
@@ -2207,12 +2091,12 @@ CMakeFiles/1994.dir/clean:
 CMakeFiles/1990.dir/all:
 	$(MAKE) -f CMakeFiles/1990.dir/build.make CMakeFiles/1990.dir/depend
 	$(MAKE) -f CMakeFiles/1990.dir/build.make CMakeFiles/1990.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=99 "Built target 1990"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1990"
 .PHONY : CMakeFiles/1990.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1990.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1990.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1990.dir/rule
@@ -2288,12 +2172,12 @@ CMakeFiles/1988.dir/clean:
 CMakeFiles/1987.dir/all:
 	$(MAKE) -f CMakeFiles/1987.dir/build.make CMakeFiles/1987.dir/depend
 	$(MAKE) -f CMakeFiles/1987.dir/build.make CMakeFiles/1987.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1987"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=99 "Built target 1987"
 .PHONY : CMakeFiles/1987.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1987.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1987.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1987.dir/rule
@@ -2369,12 +2253,12 @@ CMakeFiles/1984.dir/clean:
 CMakeFiles/1980.dir/all:
 	$(MAKE) -f CMakeFiles/1980.dir/build.make CMakeFiles/1980.dir/depend
 	$(MAKE) -f CMakeFiles/1980.dir/build.make CMakeFiles/1980.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=98 "Built target 1980"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1980"
 .PHONY : CMakeFiles/1980.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1980.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1980.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1980.dir/rule
@@ -2558,12 +2442,12 @@ CMakeFiles/1971.dir/clean:
 CMakeFiles/1970.dir/all:
 	$(MAKE) -f CMakeFiles/1970.dir/build.make CMakeFiles/1970.dir/depend
 	$(MAKE) -f CMakeFiles/1970.dir/build.make CMakeFiles/1970.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=97 "Built target 1970"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1970"
 .PHONY : CMakeFiles/1970.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1970.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1970.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1970.dir/rule
@@ -2720,12 +2604,12 @@ CMakeFiles/1963.dir/clean:
 CMakeFiles/1960.dir/all:
 	$(MAKE) -f CMakeFiles/1960.dir/build.make CMakeFiles/1960.dir/depend
 	$(MAKE) -f CMakeFiles/1960.dir/build.make CMakeFiles/1960.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=96 "Built target 1960"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1960"
 .PHONY : CMakeFiles/1960.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1960.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1960.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1960.dir/rule
@@ -2774,12 +2658,12 @@ CMakeFiles/1959.dir/clean:
 CMakeFiles/1957.dir/all:
 	$(MAKE) -f CMakeFiles/1957.dir/build.make CMakeFiles/1957.dir/depend
 	$(MAKE) -f CMakeFiles/1957.dir/build.make CMakeFiles/1957.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1957"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=96 "Built target 1957"
 .PHONY : CMakeFiles/1957.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1957.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1957.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1957.dir/rule
@@ -2882,12 +2766,12 @@ CMakeFiles/1951.dir/clean:
 CMakeFiles/1950.dir/all:
 	$(MAKE) -f CMakeFiles/1950.dir/build.make CMakeFiles/1950.dir/depend
 	$(MAKE) -f CMakeFiles/1950.dir/build.make CMakeFiles/1950.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=95 "Built target 1950"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1950"
 .PHONY : CMakeFiles/1950.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1950.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1950.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1950.dir/rule
@@ -2963,12 +2847,12 @@ CMakeFiles/1948.dir/clean:
 CMakeFiles/1947.dir/all:
 	$(MAKE) -f CMakeFiles/1947.dir/build.make CMakeFiles/1947.dir/depend
 	$(MAKE) -f CMakeFiles/1947.dir/build.make CMakeFiles/1947.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1947"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=95 "Built target 1947"
 .PHONY : CMakeFiles/1947.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1947.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1947.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1947.dir/rule
@@ -3098,12 +2982,12 @@ CMakeFiles/1941.dir/clean:
 CMakeFiles/1940.dir/all:
 	$(MAKE) -f CMakeFiles/1940.dir/build.make CMakeFiles/1940.dir/depend
 	$(MAKE) -f CMakeFiles/1940.dir/build.make CMakeFiles/1940.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=94 "Built target 1940"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1940"
 .PHONY : CMakeFiles/1940.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1940.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1940.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1940.dir/rule
@@ -3152,12 +3036,12 @@ CMakeFiles/1939.dir/clean:
 CMakeFiles/1937.dir/all:
 	$(MAKE) -f CMakeFiles/1937.dir/build.make CMakeFiles/1937.dir/depend
 	$(MAKE) -f CMakeFiles/1937.dir/build.make CMakeFiles/1937.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1937"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=94 "Built target 1937"
 .PHONY : CMakeFiles/1937.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1937.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1937.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1937.dir/rule
@@ -3233,12 +3117,12 @@ CMakeFiles/1932.dir/clean:
 CMakeFiles/1930.dir/all:
 	$(MAKE) -f CMakeFiles/1930.dir/build.make CMakeFiles/1930.dir/depend
 	$(MAKE) -f CMakeFiles/1930.dir/build.make CMakeFiles/1930.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=93 "Built target 1930"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1930"
 .PHONY : CMakeFiles/1930.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1930.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1930.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1930.dir/rule
@@ -3314,12 +3198,12 @@ CMakeFiles/1974.dir/clean:
 CMakeFiles/1927.dir/all:
 	$(MAKE) -f CMakeFiles/1927.dir/build.make CMakeFiles/1927.dir/depend
 	$(MAKE) -f CMakeFiles/1927.dir/build.make CMakeFiles/1927.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1927"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=93 "Built target 1927"
 .PHONY : CMakeFiles/1927.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1927.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1927.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1927.dir/rule
@@ -3422,12 +3306,12 @@ CMakeFiles/1921.dir/clean:
 CMakeFiles/1920.dir/all:
 	$(MAKE) -f CMakeFiles/1920.dir/build.make CMakeFiles/1920.dir/depend
 	$(MAKE) -f CMakeFiles/1920.dir/build.make CMakeFiles/1920.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=92 "Built target 1920"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1920"
 .PHONY : CMakeFiles/1920.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1920.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1920.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1920.dir/rule
@@ -3557,12 +3441,12 @@ CMakeFiles/1913.dir/clean:
 CMakeFiles/1910.dir/all:
 	$(MAKE) -f CMakeFiles/1910.dir/build.make CMakeFiles/1910.dir/depend
 	$(MAKE) -f CMakeFiles/1910.dir/build.make CMakeFiles/1910.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=91 "Built target 1910"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1910"
 .PHONY : CMakeFiles/1910.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1910.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1910.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1910.dir/rule
@@ -3611,12 +3495,12 @@ CMakeFiles/1909.dir/clean:
 CMakeFiles/1907.dir/all:
 	$(MAKE) -f CMakeFiles/1907.dir/build.make CMakeFiles/1907.dir/depend
 	$(MAKE) -f CMakeFiles/1907.dir/build.make CMakeFiles/1907.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1907"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=91 "Built target 1907"
 .PHONY : CMakeFiles/1907.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1907.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1907.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1907.dir/rule
@@ -3719,12 +3603,12 @@ CMakeFiles/1902.dir/clean:
 CMakeFiles/1900.dir/all:
 	$(MAKE) -f CMakeFiles/1900.dir/build.make CMakeFiles/1900.dir/depend
 	$(MAKE) -f CMakeFiles/1900.dir/build.make CMakeFiles/1900.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=90 "Built target 1900"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1900"
 .PHONY : CMakeFiles/1900.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1900.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1900.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1900.dir/rule
@@ -3854,12 +3738,12 @@ CMakeFiles/1891.dir/clean:
 CMakeFiles/1890.dir/all:
 	$(MAKE) -f CMakeFiles/1890.dir/build.make CMakeFiles/1890.dir/depend
 	$(MAKE) -f CMakeFiles/1890.dir/build.make CMakeFiles/1890.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=89 "Built target 1890"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1890"
 .PHONY : CMakeFiles/1890.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1890.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1890.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1890.dir/rule
@@ -4313,12 +4197,12 @@ CMakeFiles/1861.dir/clean:
 CMakeFiles/1860.dir/all:
 	$(MAKE) -f CMakeFiles/1860.dir/build.make CMakeFiles/1860.dir/depend
 	$(MAKE) -f CMakeFiles/1860.dir/build.make CMakeFiles/1860.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=86 "Built target 1860"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1860"
 .PHONY : CMakeFiles/1860.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1860.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1860.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1860.dir/rule
@@ -4556,12 +4440,12 @@ CMakeFiles/1851.dir/clean:
 CMakeFiles/1850.dir/all:
 	$(MAKE) -f CMakeFiles/1850.dir/build.make CMakeFiles/1850.dir/depend
 	$(MAKE) -f CMakeFiles/1850.dir/build.make CMakeFiles/1850.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=85 "Built target 1850"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1850"
 .PHONY : CMakeFiles/1850.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1850.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1850.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1850.dir/rule
@@ -4637,12 +4521,12 @@ CMakeFiles/1848.dir/clean:
 CMakeFiles/1847.dir/all:
 	$(MAKE) -f CMakeFiles/1847.dir/build.make CMakeFiles/1847.dir/depend
 	$(MAKE) -f CMakeFiles/1847.dir/build.make CMakeFiles/1847.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1847"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=85 "Built target 1847"
 .PHONY : CMakeFiles/1847.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1847.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1847.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1847.dir/rule
@@ -4826,12 +4710,12 @@ CMakeFiles/1841.dir/clean:
 CMakeFiles/1840.dir/all:
 	$(MAKE) -f CMakeFiles/1840.dir/build.make CMakeFiles/1840.dir/depend
 	$(MAKE) -f CMakeFiles/1840.dir/build.make CMakeFiles/1840.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=84 "Built target 1840"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1840"
 .PHONY : CMakeFiles/1840.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1840.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1840.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1840.dir/rule
@@ -4907,12 +4791,12 @@ CMakeFiles/1838.dir/clean:
 CMakeFiles/1837.dir/all:
 	$(MAKE) -f CMakeFiles/1837.dir/build.make CMakeFiles/1837.dir/depend
 	$(MAKE) -f CMakeFiles/1837.dir/build.make CMakeFiles/1837.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1837"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=84 "Built target 1837"
 .PHONY : CMakeFiles/1837.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1837.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1837.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1837.dir/rule
@@ -4988,12 +4872,12 @@ CMakeFiles/1835.dir/clean:
 CMakeFiles/1830.dir/all:
 	$(MAKE) -f CMakeFiles/1830.dir/build.make CMakeFiles/1830.dir/depend
 	$(MAKE) -f CMakeFiles/1830.dir/build.make CMakeFiles/1830.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=83 "Built target 1830"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1830"
 .PHONY : CMakeFiles/1830.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1830.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1830.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1830.dir/rule
@@ -5015,12 +4899,12 @@ CMakeFiles/1830.dir/clean:
 CMakeFiles/1917.dir/all:
 	$(MAKE) -f CMakeFiles/1917.dir/build.make CMakeFiles/1917.dir/depend
 	$(MAKE) -f CMakeFiles/1917.dir/build.make CMakeFiles/1917.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1917"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=92 "Built target 1917"
 .PHONY : CMakeFiles/1917.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1917.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1917.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1917.dir/rule
@@ -5366,12 +5250,12 @@ CMakeFiles/1383.dir/clean:
 CMakeFiles/1790.dir/all:
 	$(MAKE) -f CMakeFiles/1790.dir/build.make CMakeFiles/1790.dir/depend
 	$(MAKE) -f CMakeFiles/1790.dir/build.make CMakeFiles/1790.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=79 "Built target 1790"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1790"
 .PHONY : CMakeFiles/1790.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1790.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1790.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1790.dir/rule
@@ -5393,12 +5277,12 @@ CMakeFiles/1790.dir/clean:
 CMakeFiles/1380.dir/all:
 	$(MAKE) -f CMakeFiles/1380.dir/build.make CMakeFiles/1380.dir/depend
 	$(MAKE) -f CMakeFiles/1380.dir/build.make CMakeFiles/1380.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=38 "Built target 1380"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1380"
 .PHONY : CMakeFiles/1380.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1380.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1380.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1380.dir/rule
@@ -5501,12 +5385,12 @@ CMakeFiles/1372.dir/clean:
 CMakeFiles/1678.dir/all:
 	$(MAKE) -f CMakeFiles/1678.dir/build.make CMakeFiles/1678.dir/depend
 	$(MAKE) -f CMakeFiles/1678.dir/build.make CMakeFiles/1678.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1678"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=68 "Built target 1678"
 .PHONY : CMakeFiles/1678.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1678.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1678.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1678.dir/rule
@@ -5555,12 +5439,12 @@ CMakeFiles/1367.dir/clean:
 CMakeFiles/1538.dir/all:
 	$(MAKE) -f CMakeFiles/1538.dir/build.make CMakeFiles/1538.dir/depend
 	$(MAKE) -f CMakeFiles/1538.dir/build.make CMakeFiles/1538.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1538"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=54 "Built target 1538"
 .PHONY : CMakeFiles/1538.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1538.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1538.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1538.dir/rule
@@ -5744,12 +5628,12 @@ CMakeFiles/1923.dir/clean:
 CMakeFiles/1360.dir/all:
 	$(MAKE) -f CMakeFiles/1360.dir/build.make CMakeFiles/1360.dir/depend
 	$(MAKE) -f CMakeFiles/1360.dir/build.make CMakeFiles/1360.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=36 "Built target 1360"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1360"
 .PHONY : CMakeFiles/1360.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1360.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1360.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1360.dir/rule
@@ -5771,12 +5655,12 @@ CMakeFiles/1360.dir/clean:
 CMakeFiles/1698.dir/all:
 	$(MAKE) -f CMakeFiles/1698.dir/build.make CMakeFiles/1698.dir/depend
 	$(MAKE) -f CMakeFiles/1698.dir/build.make CMakeFiles/1698.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1698"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=70 "Built target 1698"
 .PHONY : CMakeFiles/1698.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1698.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1698.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1698.dir/rule
@@ -5987,12 +5871,12 @@ CMakeFiles/1176.dir/clean:
 CMakeFiles/1350.dir/all:
 	$(MAKE) -f CMakeFiles/1350.dir/build.make CMakeFiles/1350.dir/depend
 	$(MAKE) -f CMakeFiles/1350.dir/build.make CMakeFiles/1350.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=35 "Built target 1350"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1350"
 .PHONY : CMakeFiles/1350.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1350.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1350.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1350.dir/rule
@@ -6068,12 +5952,12 @@ CMakeFiles/1759.dir/clean:
 CMakeFiles/1309.dir/all:
 	$(MAKE) -f CMakeFiles/1309.dir/build.make CMakeFiles/1309.dir/depend
 	$(MAKE) -f CMakeFiles/1309.dir/build.make CMakeFiles/1309.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1309"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=31 "Built target 1309"
 .PHONY : CMakeFiles/1309.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1309.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1309.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1309.dir/rule
@@ -6311,12 +6195,12 @@ CMakeFiles/1324.dir/clean:
 CMakeFiles/1767.dir/all:
 	$(MAKE) -f CMakeFiles/1767.dir/build.make CMakeFiles/1767.dir/depend
 	$(MAKE) -f CMakeFiles/1767.dir/build.make CMakeFiles/1767.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1767"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=77 "Built target 1767"
 .PHONY : CMakeFiles/1767.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1767.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1767.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1767.dir/rule
@@ -6338,12 +6222,12 @@ CMakeFiles/1767.dir/clean:
 CMakeFiles/1340.dir/all:
 	$(MAKE) -f CMakeFiles/1340.dir/build.make CMakeFiles/1340.dir/depend
 	$(MAKE) -f CMakeFiles/1340.dir/build.make CMakeFiles/1340.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=34 "Built target 1340"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1340"
 .PHONY : CMakeFiles/1340.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1340.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1340.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1340.dir/rule
@@ -6365,12 +6249,12 @@ CMakeFiles/1340.dir/clean:
 CMakeFiles/1339.dir/all:
 	$(MAKE) -f CMakeFiles/1339.dir/build.make CMakeFiles/1339.dir/depend
 	$(MAKE) -f CMakeFiles/1339.dir/build.make CMakeFiles/1339.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1339"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=34 "Built target 1339"
 .PHONY : CMakeFiles/1339.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1339.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1339.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1339.dir/rule
@@ -6581,12 +6465,12 @@ CMakeFiles/1328.dir/clean:
 CMakeFiles/1480.dir/all:
 	$(MAKE) -f CMakeFiles/1480.dir/build.make CMakeFiles/1480.dir/depend
 	$(MAKE) -f CMakeFiles/1480.dir/build.make CMakeFiles/1480.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=48 "Built target 1480"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1480"
 .PHONY : CMakeFiles/1480.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1480.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1480.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1480.dir/rule
@@ -6635,12 +6519,12 @@ CMakeFiles/1322.dir/clean:
 CMakeFiles/1880.dir/all:
 	$(MAKE) -f CMakeFiles/1880.dir/build.make CMakeFiles/1880.dir/depend
 	$(MAKE) -f CMakeFiles/1880.dir/build.make CMakeFiles/1880.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=88 "Built target 1880"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1880"
 .PHONY : CMakeFiles/1880.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1880.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1880.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1880.dir/rule
@@ -6851,12 +6735,12 @@ CMakeFiles/1926.dir/clean:
 CMakeFiles/1299.dir/all:
 	$(MAKE) -f CMakeFiles/1299.dir/build.make CMakeFiles/1299.dir/depend
 	$(MAKE) -f CMakeFiles/1299.dir/build.make CMakeFiles/1299.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1299"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=30 "Built target 1299"
 .PHONY : CMakeFiles/1299.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1299.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1299.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1299.dir/rule
@@ -7094,12 +6978,12 @@ CMakeFiles/1218.dir/clean:
 CMakeFiles/1290.dir/all:
 	$(MAKE) -f CMakeFiles/1290.dir/build.make CMakeFiles/1290.dir/depend
 	$(MAKE) -f CMakeFiles/1290.dir/build.make CMakeFiles/1290.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=29 "Built target 1290"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1290"
 .PHONY : CMakeFiles/1290.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1290.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1290.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1290.dir/rule
@@ -7256,12 +7140,12 @@ CMakeFiles/1652.dir/clean:
 CMakeFiles/1780.dir/all:
 	$(MAKE) -f CMakeFiles/1780.dir/build.make CMakeFiles/1780.dir/depend
 	$(MAKE) -f CMakeFiles/1780.dir/build.make CMakeFiles/1780.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=78 "Built target 1780"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1780"
 .PHONY : CMakeFiles/1780.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1780.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1780.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1780.dir/rule
@@ -7364,12 +7248,12 @@ CMakeFiles/1285.dir/clean:
 CMakeFiles/1760.dir/all:
 	$(MAKE) -f CMakeFiles/1760.dir/build.make CMakeFiles/1760.dir/depend
 	$(MAKE) -f CMakeFiles/1760.dir/build.make CMakeFiles/1760.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=76 "Built target 1760"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1760"
 .PHONY : CMakeFiles/1760.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1760.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1760.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1760.dir/rule
@@ -7391,12 +7275,12 @@ CMakeFiles/1760.dir/clean:
 CMakeFiles/1770.dir/all:
 	$(MAKE) -f CMakeFiles/1770.dir/build.make CMakeFiles/1770.dir/depend
 	$(MAKE) -f CMakeFiles/1770.dir/build.make CMakeFiles/1770.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=77 "Built target 1770"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1770"
 .PHONY : CMakeFiles/1770.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1770.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1770.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1770.dir/rule
@@ -7472,12 +7356,12 @@ CMakeFiles/1277.dir/clean:
 CMakeFiles/1777.dir/all:
 	$(MAKE) -f CMakeFiles/1777.dir/build.make CMakeFiles/1777.dir/depend
 	$(MAKE) -f CMakeFiles/1777.dir/build.make CMakeFiles/1777.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1777"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=78 "Built target 1777"
 .PHONY : CMakeFiles/1777.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1777.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1777.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1777.dir/rule
@@ -7661,12 +7545,12 @@ CMakeFiles/1719.dir/clean:
 CMakeFiles/1370.dir/all:
 	$(MAKE) -f CMakeFiles/1370.dir/build.make CMakeFiles/1370.dir/depend
 	$(MAKE) -f CMakeFiles/1370.dir/build.make CMakeFiles/1370.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=37 "Built target 1370"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1370"
 .PHONY : CMakeFiles/1370.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1370.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1370.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1370.dir/rule
@@ -7769,12 +7653,12 @@ CMakeFiles/1387.dir/clean:
 CMakeFiles/1690.dir/all:
 	$(MAKE) -f CMakeFiles/1690.dir/build.make CMakeFiles/1690.dir/depend
 	$(MAKE) -f CMakeFiles/1690.dir/build.make CMakeFiles/1690.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=69 "Built target 1690"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1690"
 .PHONY : CMakeFiles/1690.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1690.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1690.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1690.dir/rule
@@ -7796,12 +7680,12 @@ CMakeFiles/1690.dir/clean:
 CMakeFiles/1270.dir/all:
 	$(MAKE) -f CMakeFiles/1270.dir/build.make CMakeFiles/1270.dir/depend
 	$(MAKE) -f CMakeFiles/1270.dir/build.make CMakeFiles/1270.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=27 "Built target 1270"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1270"
 .PHONY : CMakeFiles/1270.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1270.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1270.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1270.dir/rule
@@ -8228,12 +8112,12 @@ CMakeFiles/1341.dir/clean:
 CMakeFiles/1640.dir/all:
 	$(MAKE) -f CMakeFiles/1640.dir/build.make CMakeFiles/1640.dir/depend
 	$(MAKE) -f CMakeFiles/1640.dir/build.make CMakeFiles/1640.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=64 "Built target 1640"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1640"
 .PHONY : CMakeFiles/1640.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1640.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1640.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1640.dir/rule
@@ -9038,12 +8922,12 @@ CMakeFiles/1209.dir/clean:
 CMakeFiles/1280.dir/all:
 	$(MAKE) -f CMakeFiles/1280.dir/build.make CMakeFiles/1280.dir/depend
 	$(MAKE) -f CMakeFiles/1280.dir/build.make CMakeFiles/1280.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=28 "Built target 1280"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1280"
 .PHONY : CMakeFiles/1280.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1280.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1280.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1280.dir/rule
@@ -9119,12 +9003,12 @@ CMakeFiles/1611.dir/clean:
 CMakeFiles/1817.dir/all:
 	$(MAKE) -f CMakeFiles/1817.dir/build.make CMakeFiles/1817.dir/depend
 	$(MAKE) -f CMakeFiles/1817.dir/build.make CMakeFiles/1817.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1817"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=82 "Built target 1817"
 .PHONY : CMakeFiles/1817.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1817.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1817.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1817.dir/rule
@@ -9632,12 +9516,12 @@ CMakeFiles/1442.dir/clean:
 CMakeFiles/1359.dir/all:
 	$(MAKE) -f CMakeFiles/1359.dir/build.make CMakeFiles/1359.dir/depend
 	$(MAKE) -f CMakeFiles/1359.dir/build.make CMakeFiles/1359.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1359"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=36 "Built target 1359"
 .PHONY : CMakeFiles/1359.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1359.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1359.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1359.dir/rule
@@ -9659,12 +9543,12 @@ CMakeFiles/1359.dir/clean:
 CMakeFiles/1469.dir/all:
 	$(MAKE) -f CMakeFiles/1469.dir/build.make CMakeFiles/1469.dir/depend
 	$(MAKE) -f CMakeFiles/1469.dir/build.make CMakeFiles/1469.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1469"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=47 "Built target 1469"
 .PHONY : CMakeFiles/1469.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1469.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1469.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1469.dir/rule
@@ -9686,12 +9570,12 @@ CMakeFiles/1469.dir/clean:
 CMakeFiles/1249.dir/all:
 	$(MAKE) -f CMakeFiles/1249.dir/build.make CMakeFiles/1249.dir/depend
 	$(MAKE) -f CMakeFiles/1249.dir/build.make CMakeFiles/1249.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1249"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=25 "Built target 1249"
 .PHONY : CMakeFiles/1249.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1249.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1249.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1249.dir/rule
@@ -9983,12 +9867,12 @@ CMakeFiles/1593.dir/clean:
 CMakeFiles/1390.dir/all:
 	$(MAKE) -f CMakeFiles/1390.dir/build.make CMakeFiles/1390.dir/depend
 	$(MAKE) -f CMakeFiles/1390.dir/build.make CMakeFiles/1390.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=39 "Built target 1390"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1390"
 .PHONY : CMakeFiles/1390.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1390.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1390.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1390.dir/rule
@@ -10064,12 +9948,12 @@ CMakeFiles/1080.dir/clean:
 CMakeFiles/1620.dir/all:
 	$(MAKE) -f CMakeFiles/1620.dir/build.make CMakeFiles/1620.dir/depend
 	$(MAKE) -f CMakeFiles/1620.dir/build.make CMakeFiles/1620.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=62 "Built target 1620"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1620"
 .PHONY : CMakeFiles/1620.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1620.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1620.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1620.dir/rule
@@ -10199,12 +10083,12 @@ CMakeFiles/1133.dir/clean:
 CMakeFiles/1399.dir/all:
 	$(MAKE) -f CMakeFiles/1399.dir/build.make CMakeFiles/1399.dir/depend
 	$(MAKE) -f CMakeFiles/1399.dir/build.make CMakeFiles/1399.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1399"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=40 "Built target 1399"
 .PHONY : CMakeFiles/1399.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1399.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1399.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1399.dir/rule
@@ -10658,12 +10542,12 @@ CMakeFiles/1485.dir/clean:
 CMakeFiles/1857.dir/all:
 	$(MAKE) -f CMakeFiles/1857.dir/build.make CMakeFiles/1857.dir/depend
 	$(MAKE) -f CMakeFiles/1857.dir/build.make CMakeFiles/1857.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1857"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=86 "Built target 1857"
 .PHONY : CMakeFiles/1857.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1857.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1857.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1857.dir/rule
@@ -11279,12 +11163,12 @@ CMakeFiles/1119.dir/clean:
 CMakeFiles/1680.dir/all:
 	$(MAKE) -f CMakeFiles/1680.dir/build.make CMakeFiles/1680.dir/depend
 	$(MAKE) -f CMakeFiles/1680.dir/build.make CMakeFiles/1680.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=68 "Built target 1680"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1680"
 .PHONY : CMakeFiles/1680.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1680.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1680.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1680.dir/rule
@@ -11657,12 +11541,12 @@ CMakeFiles/1067.dir/clean:
 CMakeFiles/1630.dir/all:
 	$(MAKE) -f CMakeFiles/1630.dir/build.make CMakeFiles/1630.dir/depend
 	$(MAKE) -f CMakeFiles/1630.dir/build.make CMakeFiles/1630.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=63 "Built target 1630"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1630"
 .PHONY : CMakeFiles/1630.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1630.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1630.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1630.dir/rule
@@ -11792,12 +11676,12 @@ CMakeFiles/1746.dir/clean:
 CMakeFiles/1349.dir/all:
 	$(MAKE) -f CMakeFiles/1349.dir/build.make CMakeFiles/1349.dir/depend
 	$(MAKE) -f CMakeFiles/1349.dir/build.make CMakeFiles/1349.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1349"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=35 "Built target 1349"
 .PHONY : CMakeFiles/1349.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1349.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1349.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1349.dir/rule
@@ -12359,12 +12243,12 @@ CMakeFiles/1291.dir/clean:
 CMakeFiles/1470.dir/all:
 	$(MAKE) -f CMakeFiles/1470.dir/build.make CMakeFiles/1470.dir/depend
 	$(MAKE) -f CMakeFiles/1470.dir/build.make CMakeFiles/1470.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=47 "Built target 1470"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1470"
 .PHONY : CMakeFiles/1470.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1470.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1470.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1470.dir/rule
@@ -12386,12 +12270,12 @@ CMakeFiles/1470.dir/clean:
 CMakeFiles/1449.dir/all:
 	$(MAKE) -f CMakeFiles/1449.dir/build.make CMakeFiles/1449.dir/depend
 	$(MAKE) -f CMakeFiles/1449.dir/build.make CMakeFiles/1449.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1449"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=45 "Built target 1449"
 .PHONY : CMakeFiles/1449.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1449.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1449.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1449.dir/rule
@@ -12602,12 +12486,12 @@ CMakeFiles/1126.dir/clean:
 CMakeFiles/1250.dir/all:
 	$(MAKE) -f CMakeFiles/1250.dir/build.make CMakeFiles/1250.dir/depend
 	$(MAKE) -f CMakeFiles/1250.dir/build.make CMakeFiles/1250.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=25 "Built target 1250"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1250"
 .PHONY : CMakeFiles/1250.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1250.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1250.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1250.dir/rule
@@ -12872,12 +12756,12 @@ CMakeFiles/1261.dir/clean:
 CMakeFiles/1580.dir/all:
 	$(MAKE) -f CMakeFiles/1580.dir/build.make CMakeFiles/1580.dir/depend
 	$(MAKE) -f CMakeFiles/1580.dir/build.make CMakeFiles/1580.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=58 "Built target 1580"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1580"
 .PHONY : CMakeFiles/1580.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1580.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1580.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1580.dir/rule
@@ -12899,12 +12783,12 @@ CMakeFiles/1580.dir/clean:
 CMakeFiles/1807.dir/all:
 	$(MAKE) -f CMakeFiles/1807.dir/build.make CMakeFiles/1807.dir/depend
 	$(MAKE) -f CMakeFiles/1807.dir/build.make CMakeFiles/1807.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1807"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=81 "Built target 1807"
 .PHONY : CMakeFiles/1807.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1807.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1807.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1807.dir/rule
@@ -12926,12 +12810,12 @@ CMakeFiles/1807.dir/clean:
 CMakeFiles/1459.dir/all:
 	$(MAKE) -f CMakeFiles/1459.dir/build.make CMakeFiles/1459.dir/depend
 	$(MAKE) -f CMakeFiles/1459.dir/build.make CMakeFiles/1459.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1459"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=46 "Built target 1459"
 .PHONY : CMakeFiles/1459.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1459.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1459.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1459.dir/rule
@@ -13061,12 +12945,12 @@ CMakeFiles/1908.dir/clean:
 CMakeFiles/1518.dir/all:
 	$(MAKE) -f CMakeFiles/1518.dir/build.make CMakeFiles/1518.dir/depend
 	$(MAKE) -f CMakeFiles/1518.dir/build.make CMakeFiles/1518.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1518"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=52 "Built target 1518"
 .PHONY : CMakeFiles/1518.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1518.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1518.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1518.dir/rule
@@ -13250,12 +13134,12 @@ CMakeFiles/1696.dir/clean:
 CMakeFiles/1319.dir/all:
 	$(MAKE) -f CMakeFiles/1319.dir/build.make CMakeFiles/1319.dir/depend
 	$(MAKE) -f CMakeFiles/1319.dir/build.make CMakeFiles/1319.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1319"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=32 "Built target 1319"
 .PHONY : CMakeFiles/1319.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1319.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1319.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1319.dir/rule
@@ -13358,12 +13242,12 @@ CMakeFiles/1122.dir/clean:
 CMakeFiles/1887.dir/all:
 	$(MAKE) -f CMakeFiles/1887.dir/build.make CMakeFiles/1887.dir/depend
 	$(MAKE) -f CMakeFiles/1887.dir/build.make CMakeFiles/1887.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1887"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=89 "Built target 1887"
 .PHONY : CMakeFiles/1887.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1887.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1887.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1887.dir/rule
@@ -13385,12 +13269,12 @@ CMakeFiles/1887.dir/clean:
 CMakeFiles/1420.dir/all:
 	$(MAKE) -f CMakeFiles/1420.dir/build.make CMakeFiles/1420.dir/depend
 	$(MAKE) -f CMakeFiles/1420.dir/build.make CMakeFiles/1420.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=42 "Built target 1420"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1420"
 .PHONY : CMakeFiles/1420.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1420.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1420.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1420.dir/rule
@@ -13520,12 +13404,12 @@ CMakeFiles/1006.dir/clean:
 CMakeFiles/1439.dir/all:
 	$(MAKE) -f CMakeFiles/1439.dir/build.make CMakeFiles/1439.dir/depend
 	$(MAKE) -f CMakeFiles/1439.dir/build.make CMakeFiles/1439.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1439"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=44 "Built target 1439"
 .PHONY : CMakeFiles/1439.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1439.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1439.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1439.dir/rule
@@ -13655,12 +13539,12 @@ CMakeFiles/1056.dir/clean:
 CMakeFiles/1269.dir/all:
 	$(MAKE) -f CMakeFiles/1269.dir/build.make CMakeFiles/1269.dir/depend
 	$(MAKE) -f CMakeFiles/1269.dir/build.make CMakeFiles/1269.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1269"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=27 "Built target 1269"
 .PHONY : CMakeFiles/1269.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1269.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1269.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1269.dir/rule
@@ -13844,12 +13728,12 @@ CMakeFiles/1165.dir/clean:
 CMakeFiles/1289.dir/all:
 	$(MAKE) -f CMakeFiles/1289.dir/build.make CMakeFiles/1289.dir/depend
 	$(MAKE) -f CMakeFiles/1289.dir/build.make CMakeFiles/1289.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1289"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=29 "Built target 1289"
 .PHONY : CMakeFiles/1289.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1289.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1289.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1289.dir/rule
@@ -14006,12 +13890,12 @@ CMakeFiles/1014.dir/clean:
 CMakeFiles/1279.dir/all:
 	$(MAKE) -f CMakeFiles/1279.dir/build.make CMakeFiles/1279.dir/depend
 	$(MAKE) -f CMakeFiles/1279.dir/build.make CMakeFiles/1279.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1279"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=28 "Built target 1279"
 .PHONY : CMakeFiles/1279.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1279.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1279.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1279.dir/rule
@@ -14114,12 +13998,12 @@ CMakeFiles/1933.dir/clean:
 CMakeFiles/1877.dir/all:
 	$(MAKE) -f CMakeFiles/1877.dir/build.make CMakeFiles/1877.dir/depend
 	$(MAKE) -f CMakeFiles/1877.dir/build.make CMakeFiles/1877.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1877"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=88 "Built target 1877"
 .PHONY : CMakeFiles/1877.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1877.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1877.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1877.dir/rule
@@ -14168,12 +14052,12 @@ CMakeFiles/1089.dir/clean:
 CMakeFiles/1389.dir/all:
 	$(MAKE) -f CMakeFiles/1389.dir/build.make CMakeFiles/1389.dir/depend
 	$(MAKE) -f CMakeFiles/1389.dir/build.make CMakeFiles/1389.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1389"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=39 "Built target 1389"
 .PHONY : CMakeFiles/1389.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1389.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1389.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1389.dir/rule
@@ -14195,12 +14079,12 @@ CMakeFiles/1389.dir/clean:
 CMakeFiles/1409.dir/all:
 	$(MAKE) -f CMakeFiles/1409.dir/build.make CMakeFiles/1409.dir/depend
 	$(MAKE) -f CMakeFiles/1409.dir/build.make CMakeFiles/1409.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1409"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=41 "Built target 1409"
 .PHONY : CMakeFiles/1409.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1409.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1409.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1409.dir/rule
@@ -14384,12 +14268,12 @@ CMakeFiles/1246.dir/clean:
 CMakeFiles/1530.dir/all:
 	$(MAKE) -f CMakeFiles/1530.dir/build.make CMakeFiles/1530.dir/depend
 	$(MAKE) -f CMakeFiles/1530.dir/build.make CMakeFiles/1530.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=53 "Built target 1530"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1530"
 .PHONY : CMakeFiles/1530.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1530.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1530.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1530.dir/rule
@@ -14492,12 +14376,12 @@ CMakeFiles/1105.dir/clean:
 CMakeFiles/1570.dir/all:
 	$(MAKE) -f CMakeFiles/1570.dir/build.make CMakeFiles/1570.dir/depend
 	$(MAKE) -f CMakeFiles/1570.dir/build.make CMakeFiles/1570.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=57 "Built target 1570"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1570"
 .PHONY : CMakeFiles/1570.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1570.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1570.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1570.dir/rule
@@ -14519,12 +14403,12 @@ CMakeFiles/1570.dir/clean:
 CMakeFiles/1400.dir/all:
 	$(MAKE) -f CMakeFiles/1400.dir/build.make CMakeFiles/1400.dir/depend
 	$(MAKE) -f CMakeFiles/1400.dir/build.make CMakeFiles/1400.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=40 "Built target 1400"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1400"
 .PHONY : CMakeFiles/1400.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1400.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1400.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1400.dir/rule
@@ -14627,12 +14511,12 @@ CMakeFiles/1943.dir/clean:
 CMakeFiles/1757.dir/all:
 	$(MAKE) -f CMakeFiles/1757.dir/build.make CMakeFiles/1757.dir/depend
 	$(MAKE) -f CMakeFiles/1757.dir/build.make CMakeFiles/1757.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1757"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=76 "Built target 1757"
 .PHONY : CMakeFiles/1757.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1757.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1757.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1757.dir/rule
@@ -14843,12 +14727,12 @@ CMakeFiles/1486.dir/clean:
 CMakeFiles/1628.dir/all:
 	$(MAKE) -f CMakeFiles/1628.dir/build.make CMakeFiles/1628.dir/depend
 	$(MAKE) -f CMakeFiles/1628.dir/build.make CMakeFiles/1628.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1628"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=63 "Built target 1628"
 .PHONY : CMakeFiles/1628.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1628.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1628.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1628.dir/rule
@@ -15518,12 +15402,12 @@ CMakeFiles/1931.dir/clean:
 CMakeFiles/1688.dir/all:
 	$(MAKE) -f CMakeFiles/1688.dir/build.make CMakeFiles/1688.dir/depend
 	$(MAKE) -f CMakeFiles/1688.dir/build.make CMakeFiles/1688.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1688"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=69 "Built target 1688"
 .PHONY : CMakeFiles/1688.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1688.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1688.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1688.dir/rule
@@ -15734,12 +15618,12 @@ CMakeFiles/1138.dir/clean:
 CMakeFiles/1660.dir/all:
 	$(MAKE) -f CMakeFiles/1660.dir/build.make CMakeFiles/1660.dir/depend
 	$(MAKE) -f CMakeFiles/1660.dir/build.make CMakeFiles/1660.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=66 "Built target 1660"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1660"
 .PHONY : CMakeFiles/1660.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1660.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1660.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1660.dir/rule
@@ -15923,12 +15807,12 @@ CMakeFiles/1219.dir/clean:
 CMakeFiles/1747.dir/all:
 	$(MAKE) -f CMakeFiles/1747.dir/build.make CMakeFiles/1747.dir/depend
 	$(MAKE) -f CMakeFiles/1747.dir/build.make CMakeFiles/1747.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1747"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=75 "Built target 1747"
 .PHONY : CMakeFiles/1747.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1747.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1747.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1747.dir/rule
@@ -15950,12 +15834,12 @@ CMakeFiles/1747.dir/clean:
 CMakeFiles/1329.dir/all:
 	$(MAKE) -f CMakeFiles/1329.dir/build.make CMakeFiles/1329.dir/depend
 	$(MAKE) -f CMakeFiles/1329.dir/build.make CMakeFiles/1329.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1329"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=33 "Built target 1329"
 .PHONY : CMakeFiles/1329.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1329.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1329.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1329.dir/rule
@@ -16544,12 +16428,12 @@ CMakeFiles/1115.dir/clean:
 CMakeFiles/1260.dir/all:
 	$(MAKE) -f CMakeFiles/1260.dir/build.make CMakeFiles/1260.dir/depend
 	$(MAKE) -f CMakeFiles/1260.dir/build.make CMakeFiles/1260.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=26 "Built target 1260"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1260"
 .PHONY : CMakeFiles/1260.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1260.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1260.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1260.dir/rule
@@ -16868,12 +16752,12 @@ CMakeFiles/1911.dir/clean:
 CMakeFiles/1369.dir/all:
 	$(MAKE) -f CMakeFiles/1369.dir/build.make CMakeFiles/1369.dir/depend
 	$(MAKE) -f CMakeFiles/1369.dir/build.make CMakeFiles/1369.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1369"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=37 "Built target 1369"
 .PHONY : CMakeFiles/1369.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1369.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1369.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1369.dir/rule
@@ -16922,12 +16806,12 @@ CMakeFiles/1082.dir/clean:
 CMakeFiles/1558.dir/all:
 	$(MAKE) -f CMakeFiles/1558.dir/build.make CMakeFiles/1558.dir/depend
 	$(MAKE) -f CMakeFiles/1558.dir/build.make CMakeFiles/1558.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1558"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=56 "Built target 1558"
 .PHONY : CMakeFiles/1558.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1558.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1558.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1558.dir/rule
@@ -17165,12 +17049,12 @@ CMakeFiles/1085.dir/clean:
 CMakeFiles/1870.dir/all:
 	$(MAKE) -f CMakeFiles/1870.dir/build.make CMakeFiles/1870.dir/depend
 	$(MAKE) -f CMakeFiles/1870.dir/build.make CMakeFiles/1870.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=87 "Built target 1870"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1870"
 .PHONY : CMakeFiles/1870.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1870.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1870.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1870.dir/rule
@@ -17408,12 +17292,12 @@ CMakeFiles/1136.dir/clean:
 CMakeFiles/1578.dir/all:
 	$(MAKE) -f CMakeFiles/1578.dir/build.make CMakeFiles/1578.dir/depend
 	$(MAKE) -f CMakeFiles/1578.dir/build.make CMakeFiles/1578.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1578"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=58 "Built target 1578"
 .PHONY : CMakeFiles/1578.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1578.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1578.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1578.dir/rule
@@ -17705,12 +17589,12 @@ CMakeFiles/1455.dir/clean:
 CMakeFiles/1897.dir/all:
 	$(MAKE) -f CMakeFiles/1897.dir/build.make CMakeFiles/1897.dir/depend
 	$(MAKE) -f CMakeFiles/1897.dir/build.make CMakeFiles/1897.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1897"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=90 "Built target 1897"
 .PHONY : CMakeFiles/1897.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1897.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1897.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1897.dir/rule
@@ -18029,12 +17913,12 @@ CMakeFiles/1154.dir/clean:
 CMakeFiles/1379.dir/all:
 	$(MAKE) -f CMakeFiles/1379.dir/build.make CMakeFiles/1379.dir/depend
 	$(MAKE) -f CMakeFiles/1379.dir/build.make CMakeFiles/1379.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1379"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=38 "Built target 1379"
 .PHONY : CMakeFiles/1379.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1379.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1379.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1379.dir/rule
@@ -18110,12 +17994,12 @@ CMakeFiles/1421.dir/clean:
 CMakeFiles/1520.dir/all:
 	$(MAKE) -f CMakeFiles/1520.dir/build.make CMakeFiles/1520.dir/depend
 	$(MAKE) -f CMakeFiles/1520.dir/build.make CMakeFiles/1520.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=52 "Built target 1520"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1520"
 .PHONY : CMakeFiles/1520.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1520.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1520.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1520.dir/rule
@@ -18920,12 +18804,12 @@ CMakeFiles/1041.dir/clean:
 CMakeFiles/1259.dir/all:
 	$(MAKE) -f CMakeFiles/1259.dir/build.make CMakeFiles/1259.dir/depend
 	$(MAKE) -f CMakeFiles/1259.dir/build.make CMakeFiles/1259.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1259"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=26 "Built target 1259"
 .PHONY : CMakeFiles/1259.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1259.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1259.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1259.dir/rule
@@ -18974,12 +18858,12 @@ CMakeFiles/1111.dir/clean:
 CMakeFiles/1700.dir/all:
 	$(MAKE) -f CMakeFiles/1700.dir/build.make CMakeFiles/1700.dir/depend
 	$(MAKE) -f CMakeFiles/1700.dir/build.make CMakeFiles/1700.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=70 "Built target 1700"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1700"
 .PHONY : CMakeFiles/1700.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1700.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1700.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1700.dir/rule
@@ -19190,12 +19074,12 @@ CMakeFiles/1188.dir/clean:
 CMakeFiles/1300.dir/all:
 	$(MAKE) -f CMakeFiles/1300.dir/build.make CMakeFiles/1300.dir/depend
 	$(MAKE) -f CMakeFiles/1300.dir/build.make CMakeFiles/1300.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=30 "Built target 1300"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1300"
 .PHONY : CMakeFiles/1300.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1300.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1300.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1300.dir/rule
@@ -19325,12 +19209,12 @@ CMakeFiles/1427.dir/clean:
 CMakeFiles/1450.dir/all:
 	$(MAKE) -f CMakeFiles/1450.dir/build.make CMakeFiles/1450.dir/depend
 	$(MAKE) -f CMakeFiles/1450.dir/build.make CMakeFiles/1450.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=45 "Built target 1450"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1450"
 .PHONY : CMakeFiles/1450.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1450.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1450.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1450.dir/rule
@@ -19379,12 +19263,12 @@ CMakeFiles/1938.dir/clean:
 CMakeFiles/1800.dir/all:
 	$(MAKE) -f CMakeFiles/1800.dir/build.make CMakeFiles/1800.dir/depend
 	$(MAKE) -f CMakeFiles/1800.dir/build.make CMakeFiles/1800.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=80 "Built target 1800"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1800"
 .PHONY : CMakeFiles/1800.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1800.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1800.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1800.dir/rule
@@ -19622,12 +19506,12 @@ CMakeFiles/1408.dir/clean:
 CMakeFiles/1410.dir/all:
 	$(MAKE) -f CMakeFiles/1410.dir/build.make CMakeFiles/1410.dir/depend
 	$(MAKE) -f CMakeFiles/1410.dir/build.make CMakeFiles/1410.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=41 "Built target 1410"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1410"
 .PHONY : CMakeFiles/1410.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1410.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1410.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1410.dir/rule
@@ -19811,12 +19695,12 @@ CMakeFiles/1412.dir/clean:
 CMakeFiles/1977.dir/all:
 	$(MAKE) -f CMakeFiles/1977.dir/build.make CMakeFiles/1977.dir/depend
 	$(MAKE) -f CMakeFiles/1977.dir/build.make CMakeFiles/1977.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1977"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=98 "Built target 1977"
 .PHONY : CMakeFiles/1977.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1977.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1977.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1977.dir/rule
@@ -19838,12 +19722,12 @@ CMakeFiles/1977.dir/clean:
 CMakeFiles/1650.dir/all:
 	$(MAKE) -f CMakeFiles/1650.dir/build.make CMakeFiles/1650.dir/depend
 	$(MAKE) -f CMakeFiles/1650.dir/build.make CMakeFiles/1650.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=65 "Built target 1650"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1650"
 .PHONY : CMakeFiles/1650.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1650.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1650.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1650.dir/rule
@@ -19865,12 +19749,12 @@ CMakeFiles/1650.dir/clean:
 CMakeFiles/1419.dir/all:
 	$(MAKE) -f CMakeFiles/1419.dir/build.make CMakeFiles/1419.dir/depend
 	$(MAKE) -f CMakeFiles/1419.dir/build.make CMakeFiles/1419.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1419"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=42 "Built target 1419"
 .PHONY : CMakeFiles/1419.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1419.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1419.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1419.dir/rule
@@ -20243,12 +20127,12 @@ CMakeFiles/1336.dir/clean:
 CMakeFiles/1429.dir/all:
 	$(MAKE) -f CMakeFiles/1429.dir/build.make CMakeFiles/1429.dir/depend
 	$(MAKE) -f CMakeFiles/1429.dir/build.make CMakeFiles/1429.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1429"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=43 "Built target 1429"
 .PHONY : CMakeFiles/1429.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1429.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1429.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1429.dir/rule
@@ -20459,12 +20343,12 @@ CMakeFiles/1436.dir/clean:
 CMakeFiles/1440.dir/all:
 	$(MAKE) -f CMakeFiles/1440.dir/build.make CMakeFiles/1440.dir/depend
 	$(MAKE) -f CMakeFiles/1440.dir/build.make CMakeFiles/1440.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=44 "Built target 1440"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1440"
 .PHONY : CMakeFiles/1440.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1440.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1440.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1440.dir/rule
@@ -20648,12 +20532,12 @@ CMakeFiles/1456.dir/clean:
 CMakeFiles/1797.dir/all:
 	$(MAKE) -f CMakeFiles/1797.dir/build.make CMakeFiles/1797.dir/depend
 	$(MAKE) -f CMakeFiles/1797.dir/build.make CMakeFiles/1797.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1797"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=80 "Built target 1797"
 .PHONY : CMakeFiles/1797.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1797.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1797.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1797.dir/rule
@@ -20702,12 +20586,12 @@ CMakeFiles/1457.dir/clean:
 CMakeFiles/1460.dir/all:
 	$(MAKE) -f CMakeFiles/1460.dir/build.make CMakeFiles/1460.dir/depend
 	$(MAKE) -f CMakeFiles/1460.dir/build.make CMakeFiles/1460.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=46 "Built target 1460"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1460"
 .PHONY : CMakeFiles/1460.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1460.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1460.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1460.dir/rule
@@ -21323,12 +21207,12 @@ CMakeFiles/1358.dir/clean:
 CMakeFiles/1310.dir/all:
 	$(MAKE) -f CMakeFiles/1310.dir/build.make CMakeFiles/1310.dir/depend
 	$(MAKE) -f CMakeFiles/1310.dir/build.make CMakeFiles/1310.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=31 "Built target 1310"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1310"
 .PHONY : CMakeFiles/1310.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1310.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1310.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1310.dir/rule
@@ -21431,12 +21315,12 @@ CMakeFiles/1487.dir/clean:
 CMakeFiles/1489.dir/all:
 	$(MAKE) -f CMakeFiles/1489.dir/build.make CMakeFiles/1489.dir/depend
 	$(MAKE) -f CMakeFiles/1489.dir/build.make CMakeFiles/1489.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1489"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=49 "Built target 1489"
 .PHONY : CMakeFiles/1489.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1489.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1489.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1489.dir/rule
@@ -21485,12 +21369,12 @@ CMakeFiles/1683.dir/clean:
 CMakeFiles/1490.dir/all:
 	$(MAKE) -f CMakeFiles/1490.dir/build.make CMakeFiles/1490.dir/depend
 	$(MAKE) -f CMakeFiles/1490.dir/build.make CMakeFiles/1490.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=49 "Built target 1490"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1490"
 .PHONY : CMakeFiles/1490.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1490.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1490.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1490.dir/rule
@@ -21620,12 +21504,12 @@ CMakeFiles/1086.dir/clean:
 CMakeFiles/1728.dir/all:
 	$(MAKE) -f CMakeFiles/1728.dir/build.make CMakeFiles/1728.dir/depend
 	$(MAKE) -f CMakeFiles/1728.dir/build.make CMakeFiles/1728.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1728"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=73 "Built target 1728"
 .PHONY : CMakeFiles/1728.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1728.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1728.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1728.dir/rule
@@ -21890,12 +21774,12 @@ CMakeFiles/1354.dir/clean:
 CMakeFiles/1498.dir/all:
 	$(MAKE) -f CMakeFiles/1498.dir/build.make CMakeFiles/1498.dir/depend
 	$(MAKE) -f CMakeFiles/1498.dir/build.make CMakeFiles/1498.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1498"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=50 "Built target 1498"
 .PHONY : CMakeFiles/1498.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1498.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1498.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1498.dir/rule
@@ -21971,12 +21855,12 @@ CMakeFiles/1465.dir/clean:
 CMakeFiles/1500.dir/all:
 	$(MAKE) -f CMakeFiles/1500.dir/build.make CMakeFiles/1500.dir/depend
 	$(MAKE) -f CMakeFiles/1500.dir/build.make CMakeFiles/1500.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=50 "Built target 1500"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1500"
 .PHONY : CMakeFiles/1500.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1500.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1500.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1500.dir/rule
@@ -22241,12 +22125,12 @@ CMakeFiles/1693.dir/clean:
 CMakeFiles/1330.dir/all:
 	$(MAKE) -f CMakeFiles/1330.dir/build.make CMakeFiles/1330.dir/depend
 	$(MAKE) -f CMakeFiles/1330.dir/build.make CMakeFiles/1330.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=33 "Built target 1330"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1330"
 .PHONY : CMakeFiles/1330.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1330.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1330.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1330.dir/rule
@@ -22295,12 +22179,12 @@ CMakeFiles/1507.dir/clean:
 CMakeFiles/1510.dir/all:
 	$(MAKE) -f CMakeFiles/1510.dir/build.make CMakeFiles/1510.dir/depend
 	$(MAKE) -f CMakeFiles/1510.dir/build.make CMakeFiles/1510.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=51 "Built target 1510"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1510"
 .PHONY : CMakeFiles/1510.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1510.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1510.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1510.dir/rule
@@ -22646,12 +22530,12 @@ CMakeFiles/1662.dir/clean:
 CMakeFiles/1528.dir/all:
 	$(MAKE) -f CMakeFiles/1528.dir/build.make CMakeFiles/1528.dir/depend
 	$(MAKE) -f CMakeFiles/1528.dir/build.make CMakeFiles/1528.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1528"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=53 "Built target 1528"
 .PHONY : CMakeFiles/1528.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1528.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1528.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1528.dir/rule
@@ -22997,12 +22881,12 @@ CMakeFiles/1647.dir/clean:
 CMakeFiles/1670.dir/all:
 	$(MAKE) -f CMakeFiles/1670.dir/build.make CMakeFiles/1670.dir/depend
 	$(MAKE) -f CMakeFiles/1670.dir/build.make CMakeFiles/1670.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=67 "Built target 1670"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1670"
 .PHONY : CMakeFiles/1670.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1670.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1670.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1670.dir/rule
@@ -23240,12 +23124,12 @@ CMakeFiles/1613.dir/clean:
 CMakeFiles/1540.dir/all:
 	$(MAKE) -f CMakeFiles/1540.dir/build.make CMakeFiles/1540.dir/depend
 	$(MAKE) -f CMakeFiles/1540.dir/build.make CMakeFiles/1540.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=54 "Built target 1540"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1540"
 .PHONY : CMakeFiles/1540.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1540.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1540.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1540.dir/rule
@@ -23267,12 +23151,12 @@ CMakeFiles/1540.dir/clean:
 CMakeFiles/1320.dir/all:
 	$(MAKE) -f CMakeFiles/1320.dir/build.make CMakeFiles/1320.dir/depend
 	$(MAKE) -f CMakeFiles/1320.dir/build.make CMakeFiles/1320.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=32 "Built target 1320"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1320"
 .PHONY : CMakeFiles/1320.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1320.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1320.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1320.dir/rule
@@ -23672,12 +23556,12 @@ CMakeFiles/1547.dir/clean:
 CMakeFiles/1548.dir/all:
 	$(MAKE) -f CMakeFiles/1548.dir/build.make CMakeFiles/1548.dir/depend
 	$(MAKE) -f CMakeFiles/1548.dir/build.make CMakeFiles/1548.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1548"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=55 "Built target 1548"
 .PHONY : CMakeFiles/1548.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1548.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1548.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1548.dir/rule
@@ -23726,12 +23610,12 @@ CMakeFiles/1549.dir/clean:
 CMakeFiles/1550.dir/all:
 	$(MAKE) -f CMakeFiles/1550.dir/build.make CMakeFiles/1550.dir/depend
 	$(MAKE) -f CMakeFiles/1550.dir/build.make CMakeFiles/1550.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=55 "Built target 1550"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1550"
 .PHONY : CMakeFiles/1550.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1550.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1550.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1550.dir/rule
@@ -23780,12 +23664,12 @@ CMakeFiles/1551.dir/clean:
 CMakeFiles/1710.dir/all:
 	$(MAKE) -f CMakeFiles/1710.dir/build.make CMakeFiles/1710.dir/depend
 	$(MAKE) -f CMakeFiles/1710.dir/build.make CMakeFiles/1710.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=71 "Built target 1710"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1710"
 .PHONY : CMakeFiles/1710.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1710.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1710.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1710.dir/rule
@@ -24050,12 +23934,12 @@ CMakeFiles/1686.dir/clean:
 CMakeFiles/1508.dir/all:
 	$(MAKE) -f CMakeFiles/1508.dir/build.make CMakeFiles/1508.dir/depend
 	$(MAKE) -f CMakeFiles/1508.dir/build.make CMakeFiles/1508.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1508"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=51 "Built target 1508"
 .PHONY : CMakeFiles/1508.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1508.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1508.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1508.dir/rule
@@ -24185,12 +24069,12 @@ CMakeFiles/1803.dir/clean:
 CMakeFiles/1560.dir/all:
 	$(MAKE) -f CMakeFiles/1560.dir/build.make CMakeFiles/1560.dir/depend
 	$(MAKE) -f CMakeFiles/1560.dir/build.make CMakeFiles/1560.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=56 "Built target 1560"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1560"
 .PHONY : CMakeFiles/1560.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1560.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1560.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1560.dir/rule
@@ -24266,12 +24150,12 @@ CMakeFiles/1565.dir/clean:
 CMakeFiles/1568.dir/all:
 	$(MAKE) -f CMakeFiles/1568.dir/build.make CMakeFiles/1568.dir/depend
 	$(MAKE) -f CMakeFiles/1568.dir/build.make CMakeFiles/1568.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1568"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=57 "Built target 1568"
 .PHONY : CMakeFiles/1568.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1568.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1568.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1568.dir/rule
@@ -24536,12 +24420,12 @@ CMakeFiles/1237.dir/clean:
 CMakeFiles/1588.dir/all:
 	$(MAKE) -f CMakeFiles/1588.dir/build.make CMakeFiles/1588.dir/depend
 	$(MAKE) -f CMakeFiles/1588.dir/build.make CMakeFiles/1588.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1588"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=59 "Built target 1588"
 .PHONY : CMakeFiles/1588.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1588.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1588.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1588.dir/rule
@@ -24563,12 +24447,12 @@ CMakeFiles/1588.dir/clean:
 CMakeFiles/1668.dir/all:
 	$(MAKE) -f CMakeFiles/1668.dir/build.make CMakeFiles/1668.dir/depend
 	$(MAKE) -f CMakeFiles/1668.dir/build.make CMakeFiles/1668.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1668"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=67 "Built target 1668"
 .PHONY : CMakeFiles/1668.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1668.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1668.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1668.dir/rule
@@ -24590,12 +24474,12 @@ CMakeFiles/1668.dir/clean:
 CMakeFiles/1590.dir/all:
 	$(MAKE) -f CMakeFiles/1590.dir/build.make CMakeFiles/1590.dir/depend
 	$(MAKE) -f CMakeFiles/1590.dir/build.make CMakeFiles/1590.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=59 "Built target 1590"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1590"
 .PHONY : CMakeFiles/1590.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1590.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1590.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1590.dir/rule
@@ -24806,12 +24690,12 @@ CMakeFiles/1594.dir/clean:
 CMakeFiles/1598.dir/all:
 	$(MAKE) -f CMakeFiles/1598.dir/build.make CMakeFiles/1598.dir/depend
 	$(MAKE) -f CMakeFiles/1598.dir/build.make CMakeFiles/1598.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1598"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=60 "Built target 1598"
 .PHONY : CMakeFiles/1598.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1598.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1598.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1598.dir/rule
@@ -24941,12 +24825,12 @@ CMakeFiles/1240.dir/clean:
 CMakeFiles/1600.dir/all:
 	$(MAKE) -f CMakeFiles/1600.dir/build.make CMakeFiles/1600.dir/depend
 	$(MAKE) -f CMakeFiles/1600.dir/build.make CMakeFiles/1600.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=60 "Built target 1600"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1600"
 .PHONY : CMakeFiles/1600.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1600.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1600.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1600.dir/rule
@@ -24995,12 +24879,12 @@ CMakeFiles/1181.dir/clean:
 CMakeFiles/1618.dir/all:
 	$(MAKE) -f CMakeFiles/1618.dir/build.make CMakeFiles/1618.dir/depend
 	$(MAKE) -f CMakeFiles/1618.dir/build.make CMakeFiles/1618.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1618"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=62 "Built target 1618"
 .PHONY : CMakeFiles/1618.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1618.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1618.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1618.dir/rule
@@ -25157,12 +25041,12 @@ CMakeFiles/1606.dir/clean:
 CMakeFiles/1608.dir/all:
 	$(MAKE) -f CMakeFiles/1608.dir/build.make CMakeFiles/1608.dir/depend
 	$(MAKE) -f CMakeFiles/1608.dir/build.make CMakeFiles/1608.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1608"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=61 "Built target 1608"
 .PHONY : CMakeFiles/1608.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1608.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1608.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1608.dir/rule
@@ -25211,12 +25095,12 @@ CMakeFiles/1609.dir/clean:
 CMakeFiles/1610.dir/all:
 	$(MAKE) -f CMakeFiles/1610.dir/build.make CMakeFiles/1610.dir/depend
 	$(MAKE) -f CMakeFiles/1610.dir/build.make CMakeFiles/1610.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=61 "Built target 1610"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1610"
 .PHONY : CMakeFiles/1610.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1610.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1610.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1610.dir/rule
@@ -25346,12 +25230,12 @@ CMakeFiles/1691.dir/clean:
 CMakeFiles/1479.dir/all:
 	$(MAKE) -f CMakeFiles/1479.dir/build.make CMakeFiles/1479.dir/depend
 	$(MAKE) -f CMakeFiles/1479.dir/build.make CMakeFiles/1479.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1479"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=48 "Built target 1479"
 .PHONY : CMakeFiles/1479.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1479.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1479.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1479.dir/rule
@@ -25427,12 +25311,12 @@ CMakeFiles/1616.dir/clean:
 CMakeFiles/1827.dir/all:
 	$(MAKE) -f CMakeFiles/1827.dir/build.make CMakeFiles/1827.dir/depend
 	$(MAKE) -f CMakeFiles/1827.dir/build.make CMakeFiles/1827.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1827"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=83 "Built target 1827"
 .PHONY : CMakeFiles/1827.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1827.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1827.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1827.dir/rule
@@ -25832,12 +25716,12 @@ CMakeFiles/1637.dir/clean:
 CMakeFiles/1638.dir/all:
 	$(MAKE) -f CMakeFiles/1638.dir/build.make CMakeFiles/1638.dir/depend
 	$(MAKE) -f CMakeFiles/1638.dir/build.make CMakeFiles/1638.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1638"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=64 "Built target 1638"
 .PHONY : CMakeFiles/1638.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1638.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1638.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1638.dir/rule
@@ -25994,12 +25878,12 @@ CMakeFiles/1639.dir/clean:
 CMakeFiles/1658.dir/all:
 	$(MAKE) -f CMakeFiles/1658.dir/build.make CMakeFiles/1658.dir/depend
 	$(MAKE) -f CMakeFiles/1658.dir/build.make CMakeFiles/1658.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1658"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=66 "Built target 1658"
 .PHONY : CMakeFiles/1658.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1658.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1658.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1658.dir/rule
@@ -26129,12 +26013,12 @@ CMakeFiles/1012.dir/clean:
 CMakeFiles/1648.dir/all:
 	$(MAKE) -f CMakeFiles/1648.dir/build.make CMakeFiles/1648.dir/depend
 	$(MAKE) -f CMakeFiles/1648.dir/build.make CMakeFiles/1648.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1648"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=65 "Built target 1648"
 .PHONY : CMakeFiles/1648.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1648.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1648.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1648.dir/rule
@@ -26183,12 +26067,12 @@ CMakeFiles/1552.dir/clean:
 CMakeFiles/1740.dir/all:
 	$(MAKE) -f CMakeFiles/1740.dir/build.make CMakeFiles/1740.dir/depend
 	$(MAKE) -f CMakeFiles/1740.dir/build.make CMakeFiles/1740.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=74 "Built target 1740"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1740"
 .PHONY : CMakeFiles/1740.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1740.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1740.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1740.dir/rule
@@ -26453,12 +26337,12 @@ CMakeFiles/1832.dir/clean:
 CMakeFiles/1430.dir/all:
 	$(MAKE) -f CMakeFiles/1430.dir/build.make CMakeFiles/1430.dir/depend
 	$(MAKE) -f CMakeFiles/1430.dir/build.make CMakeFiles/1430.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=43 "Built target 1430"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1430"
 .PHONY : CMakeFiles/1430.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1430.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1430.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1430.dir/rule
@@ -26507,12 +26391,12 @@ CMakeFiles/1601.dir/clean:
 CMakeFiles/1750.dir/all:
 	$(MAKE) -f CMakeFiles/1750.dir/build.make CMakeFiles/1750.dir/depend
 	$(MAKE) -f CMakeFiles/1750.dir/build.make CMakeFiles/1750.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=75 "Built target 1750"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1750"
 .PHONY : CMakeFiles/1750.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1750.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1750.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1750.dir/rule
@@ -26939,12 +26823,12 @@ CMakeFiles/1705.dir/clean:
 CMakeFiles/1708.dir/all:
 	$(MAKE) -f CMakeFiles/1708.dir/build.make CMakeFiles/1708.dir/depend
 	$(MAKE) -f CMakeFiles/1708.dir/build.make CMakeFiles/1708.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1708"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=71 "Built target 1708"
 .PHONY : CMakeFiles/1708.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1708.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1708.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1708.dir/rule
@@ -27074,12 +26958,12 @@ CMakeFiles/1716.dir/clean:
 CMakeFiles/1718.dir/all:
 	$(MAKE) -f CMakeFiles/1718.dir/build.make CMakeFiles/1718.dir/depend
 	$(MAKE) -f CMakeFiles/1718.dir/build.make CMakeFiles/1718.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1718"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=72 "Built target 1718"
 .PHONY : CMakeFiles/1718.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1718.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1718.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1718.dir/rule
@@ -27128,12 +27012,12 @@ CMakeFiles/1685.dir/clean:
 CMakeFiles/1720.dir/all:
 	$(MAKE) -f CMakeFiles/1720.dir/build.make CMakeFiles/1720.dir/depend
 	$(MAKE) -f CMakeFiles/1720.dir/build.make CMakeFiles/1720.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=72 "Built target 1720"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1720"
 .PHONY : CMakeFiles/1720.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1720.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1720.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1720.dir/rule
@@ -27425,12 +27309,12 @@ CMakeFiles/1729.dir/clean:
 CMakeFiles/1730.dir/all:
 	$(MAKE) -f CMakeFiles/1730.dir/build.make CMakeFiles/1730.dir/depend
 	$(MAKE) -f CMakeFiles/1730.dir/build.make CMakeFiles/1730.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=73 "Built target 1730"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1730"
 .PHONY : CMakeFiles/1730.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1730.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1730.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1730.dir/rule
@@ -27560,12 +27444,12 @@ CMakeFiles/1778.dir/clean:
 CMakeFiles/1738.dir/all:
 	$(MAKE) -f CMakeFiles/1738.dir/build.make CMakeFiles/1738.dir/depend
 	$(MAKE) -f CMakeFiles/1738.dir/build.make CMakeFiles/1738.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1738"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=74 "Built target 1738"
 .PHONY : CMakeFiles/1738.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1738.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1738.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1738.dir/rule
@@ -28316,12 +28200,12 @@ CMakeFiles/1783.dir/clean:
 CMakeFiles/1787.dir/all:
 	$(MAKE) -f CMakeFiles/1787.dir/build.make CMakeFiles/1787.dir/depend
 	$(MAKE) -f CMakeFiles/1787.dir/build.make CMakeFiles/1787.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1787"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=79 "Built target 1787"
 .PHONY : CMakeFiles/1787.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1787.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1787.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1787.dir/rule
@@ -28343,12 +28227,12 @@ CMakeFiles/1787.dir/clean:
 CMakeFiles/1967.dir/all:
 	$(MAKE) -f CMakeFiles/1967.dir/build.make CMakeFiles/1967.dir/depend
 	$(MAKE) -f CMakeFiles/1967.dir/build.make CMakeFiles/1967.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1967"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=97 "Built target 1967"
 .PHONY : CMakeFiles/1967.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1967.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1967.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1967.dir/rule
@@ -28802,12 +28686,12 @@ CMakeFiles/1034.dir/clean:
 CMakeFiles/1810.dir/all:
 	$(MAKE) -f CMakeFiles/1810.dir/build.make CMakeFiles/1810.dir/depend
 	$(MAKE) -f CMakeFiles/1810.dir/build.make CMakeFiles/1810.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=81 "Built target 1810"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1810"
 .PHONY : CMakeFiles/1810.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1810.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1810.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1810.dir/rule
@@ -29018,12 +28902,12 @@ CMakeFiles/1818.dir/clean:
 CMakeFiles/1867.dir/all:
 	$(MAKE) -f CMakeFiles/1867.dir/build.make CMakeFiles/1867.dir/depend
 	$(MAKE) -f CMakeFiles/1867.dir/build.make CMakeFiles/1867.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1867"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=87 "Built target 1867"
 .PHONY : CMakeFiles/1867.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1867.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1867.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1867.dir/rule
@@ -29045,12 +28929,12 @@ CMakeFiles/1867.dir/clean:
 CMakeFiles/1820.dir/all:
 	$(MAKE) -f CMakeFiles/1820.dir/build.make CMakeFiles/1820.dir/depend
 	$(MAKE) -f CMakeFiles/1820.dir/build.make CMakeFiles/1820.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num=82 "Built target 1820"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles --progress-num= "Built target 1820"
 .PHONY : CMakeFiles/1820.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1820.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1820.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1820.dir/rule

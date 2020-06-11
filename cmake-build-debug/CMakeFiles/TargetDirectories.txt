@@ -1,8 +1,4 @@
 /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles/1999.dir
-/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles/1998.dir
-/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles/1997.dir
-/home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles/1996.dir
 /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles/1994.dir
 /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles/1990.dir
 /home/ubuntu/CLionProjects/wow/cmake-build-debug/CMakeFiles/1989.dir
